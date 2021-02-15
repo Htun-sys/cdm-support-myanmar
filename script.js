@@ -38,7 +38,7 @@ $(document).ready(function() {
 					divCardBody.append("Contacts / ")
 					for (let i=0;i<contactList.length;i++) {
 						divCardBody.append($("<a>", {
-							"href":contactList[i],
+							"href":`tel:${contactList[i]}`,
 						}).text(contactList[i]));
 						divCardBody.append(" / ");
 					}
