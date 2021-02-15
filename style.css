@@ -1,0 +1,62 @@
+body {
+	box-sizing: border-box;
+}
+
+#search {
+	padding: 20px;
+}
+
+#search div{
+	padding: 10px 20px;
+	border: 1px solid #A8A8A8;
+	border-radius: 10px;
+	background-color: #A8A8A8;
+}
+
+#search h3 {
+	padding: 10px 5px;
+	font-size: 100%;
+	font-weight: 600;
+}
+#search p {
+	padding: 10px 5px;
+	font-size: 95%;
+}
+
+select#division {
+	min-width: 200px;
+	min-height: 30px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	border: 2px solid #5bc0de;
+}
+
+select#division option { text-align-last:center; }
+
+hr {
+	width: 85%;
+	border-top: 1px solid;
+}
+
+section#container h3 {
+		font-size: 95%;
+}
+
+section#container .heading {
+	font-size: 100%;
+	text-align: center;
+	padding: 10px 0;
+	font-style: italic;
+}
+
+section#container .card {
+	border-radius: 10px;
+	box-shadow: 5px 5px #888888;
+	padding: 0px 20px;
+	margin-bottom: 5px;
+}
+
+.facebook {
+	margin-top: 5px;
+}
+
