@@ -60,3 +60,7 @@ section#container .card {
 	margin-top: 5px;
 }
 
+footer {
+	display:none;
+	margin-top: 10px;
+}

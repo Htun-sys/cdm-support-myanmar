@@ -16,6 +16,13 @@ $(document).ready(function() {
 		$("select#division").change(function() {
 			$("section#container").empty();
 			let selectedDivision = $("select option:selected").val();
+
+			if (selectedDivision) {
+				$("footer").css("display","block");
+			} else {
+				$("footer").css("display","none");
+			}
+			
 			let data = response.filter((obj)=>(obj["region"]===selectedDivision));
 			
 			$("section#container").append(`<h3 class="heading">ရှာဖွေမှုစုစုပေါင်း (${data.length})ခု</h3>`);
