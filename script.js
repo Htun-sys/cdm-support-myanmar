@@ -9,7 +9,7 @@ $(document).ready(function() {
 		for (let i=0;i < uniqueRegions.length;i++) {
 			options += `<option value=${uniqueRegions[i]}>
 			${codeToString(uniqueRegions[i])}
-			</option>`
+			</option>`;
 		}
 		$("#division").append(options);
 
@@ -65,7 +65,6 @@ $(document).ready(function() {
 				}
 			}//end of for loop
 		});
-
 	});//end of getJSON
 });
 
