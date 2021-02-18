@@ -2,6 +2,10 @@ body {
 	box-sizing: border-box;
 }
 
+.navbar-nav {
+	font-weight: 600;
+}
+
 #search {
 	padding: 20px;
 }
